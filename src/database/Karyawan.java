@@ -74,7 +74,8 @@ public class Karyawan {
         }
     }
     
-//    public static void main(String[] args) throws InterruptedException {
-//        new Karyawan().createFakeData();
-//    }
+    public static void main(String[] args) throws InterruptedException {
+        new Karyawan().createTable();
+        new Karyawan().createFakeData();
+    }
 }
